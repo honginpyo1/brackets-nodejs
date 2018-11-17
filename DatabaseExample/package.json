@@ -1,0 +1,18 @@
+{
+  "name": "databaseexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mongodb": "^3.1.9",
+    "mongoose": "^5.3.11"
+  }
+}

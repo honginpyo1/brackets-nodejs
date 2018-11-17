@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Do it 2</title>
+    </head>
+<body>
+    <h1>나의 메모</h1>
+    <hr>
+    <form method="post" enctype="multipart/form-data" action="/process/doit">
+    <table>
+        <tr>
+            <td><lable>작 성 자</lable></td>
+            <td><input type="text" name="author"></td>
+        </tr>
+        <tr>
+            <td><lable>작성 일시</lable></td>
+            <td><input type="date" name="date"></td>
+        </tr>
+        <tr>
+            <td><lable>내용</lable></td>
+            <td><input type="text" name="blog"></td>
+        </tr>
+    </table>
+        <table>
+            <tr>
+                <td><label>파일</label></td>
+                <td><input type="file" name="doit"></td>
+            </tr>
+        </table>
+        <tr>
+            <td><input type="submit" value="저장" name="submit"></td>
+            <td><input type="button" value="닫기" name="exit"></td>
+        </tr>
+    </form>
+</body>
+</html>
