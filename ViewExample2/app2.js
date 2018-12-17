@@ -16,6 +16,9 @@ var config = require('./config');
 var route_loader = require('./routes/route_loader');
 var database = require('./database/database')
 
+// passport 사용
+var passo
+
 var app = express();
 
 console.log('config.server_port : %d', config.server_port);
